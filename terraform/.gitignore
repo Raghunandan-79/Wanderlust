@@ -1,0 +1,4 @@
+.terraform/
+.terraform.lock.hcl
+terra-key
+terra-key.pub
