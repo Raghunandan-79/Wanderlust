@@ -2,3 +2,22 @@
 .terraform.lock.hcl
 terra-key
 terra-key.pub
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Binaries
+*.amd64
+*.exe
+*.deb
+
+# Certificates
+*.crt
+
+# Shell scripts downloads
+get_helm.sh
+kind-install.sh
+
+# Kubernetes configs
+cluster-config.yml
